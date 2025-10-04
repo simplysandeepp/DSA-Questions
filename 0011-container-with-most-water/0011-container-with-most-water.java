@@ -1,14 +1,16 @@
 class Solution {
     public int maxArea(int[] height) {
-        int l = 0, r = height.length - 1;
-        int max = 0;
-
-        while (l < r) {
-            int area = (r - l) * Math.min(height[l], height[r]);
-            max = Math.max(max, area);
-            if (height[l] < height[r]) l++;
-            else r--;
-        }
-        return max;
+        int n = height.length;
+        int lp = 0, rp = n-1, mw = 0;
+        while(lp < rp) {
+            int b = rp - lp;
+            int l = Math.min(height[lp], height[rp]);
+            int cw = l * b;
+            mw = Math.max(mw, cw);
+            int temp = height[lp] < height[rp] ? lp++ : rp--;
+        }        
+        return mw;
     }
 }
+// lp -> left pointer , rp -> right pointer, mw -> max water, cw -> current water
+// l -> length , b -> breadth
