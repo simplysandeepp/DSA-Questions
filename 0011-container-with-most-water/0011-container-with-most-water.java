@@ -12,5 +12,6 @@ class Solution {
         return mw;
     }
 }
-// lp -> left pointer , rp -> right pointer, mw -> max water, cw -> current water
+// lp -> left pointer , rp -> right pointer
+// mw -> max water, cw -> current water
 // l -> length , b -> breadth
