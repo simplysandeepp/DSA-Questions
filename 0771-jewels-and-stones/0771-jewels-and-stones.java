@@ -1,15 +1,19 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int numJewelsInStones(String jewels, String stones) {
-        StringBuilder str = new StringBuilder("world");
-        int count =0;
-        for(int i=0; i<jewels.length(); i++){
-            for(int j=0; j<stones.length(); j++){
-                if (jewels.charAt(i) == stones.charAt(j)){
-                    str.append(i);
-                    count++;
-                }
+        Set<Character> jewelSet = new HashSet<>();
+        for (char jewel : jewels.toCharArray()) {
+            jewelSet.add(jewel);
+        }
+        int count = 0;
+        for (char stone : stones.toCharArray()) {
+            if (jewelSet.contains(stone)) {
+                count++;
             }
         }
+
         return count;
     }
 }
