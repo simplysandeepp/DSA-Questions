@@ -13,6 +13,6 @@ class Solution {
             sum = sum - nums[i-k] + nums[i];
             maxSum = Math.max(maxSum, sum);
         }
-        return (double) maxSum/sum;
+        return (double) maxSum/k;
     }
 }
