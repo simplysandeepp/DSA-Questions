@@ -10,7 +10,7 @@ class RecentCounter {
     
     public int ping(int t) {
         while (start < end && (t - records[start] > 3000)) { 
-            start++;         
+            start++; 
         }
         records[end++] = t; 
         return end - start; 
