@@ -12,4 +12,4 @@ class Solution {
         }
         return b == -1 ? 0 : a * b;
     }
-
+}
