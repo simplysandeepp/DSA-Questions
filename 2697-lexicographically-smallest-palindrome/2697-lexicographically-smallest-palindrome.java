@@ -5,7 +5,6 @@ class Solution {
         
         while (left < right) {
             if (a[left] != a[right]) {
-                // Pick the smaller character directly
                 char smaller = (char) Math.min(a[left], a[right]);
                 a[left] = a[right] = smaller;
             }
