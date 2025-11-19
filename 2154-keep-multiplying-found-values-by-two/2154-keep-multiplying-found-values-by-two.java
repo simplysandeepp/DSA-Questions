@@ -1,9 +1,12 @@
 class Solution {
-    public int findFinalValue(int[] nums, int key) {
+    public int findFinalValue(int[] nums, int original) {
         Arrays.sort(nums);
-        for(int i = 0 ; i < nums.length ; i++ ){
-            if(nums[i] == key) key*=2;
+        for(int i=0; i<nums.length; i++){
+            if(nums[i] == original){
+                original = 2 * original;
+            }
         }
-        return key;
+        return original;
+
     }
 }
