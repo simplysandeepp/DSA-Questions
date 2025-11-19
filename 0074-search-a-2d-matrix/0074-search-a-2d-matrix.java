@@ -5,7 +5,7 @@ class Solution {
         return helper(matrix, 0, row*col-1, col, target);
     }
 
-    public boolean helper(int[][] matrix, int left, int right, int col,target){
+    public boolean helper(int[][] matrix, int left, int right, int col,int target){
         if(left > right){
             return false;
         }
