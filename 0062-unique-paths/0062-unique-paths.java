@@ -1,13 +1,30 @@
 class Solution {
     public int uniquePaths(int m, int n) {
-        long ans = 1;
-        int total = m + n - 2;
-        int r = Math.min(m - 1, n - 1);
+        int[][] dp = new int[m][n];
 
-        for (int i = 1; i <= r; i++) {
-            ans = ans * (total - r + i) / i;
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
 
-        return (int) ans;
+        return solve(0, 0, m, n, dp);
+    }
+
+    private int solve(int r, int c, int m, int n, int[][] dp) {
+
+        if (r >= m || c >= n)
+            return 0;
+
+        if (r == m - 1 && c == n - 1)
+            return 1;
+
+        if (dp[r][c] != -1)
+            return dp[r][c];
+
+        int right = solve(r, c + 1, m, n, dp);
+        int down  = solve(r + 1, c, m, n, dp);
+
+        dp[r][c] = right + down;
+
+        return dp[r][c];
     }
 }
