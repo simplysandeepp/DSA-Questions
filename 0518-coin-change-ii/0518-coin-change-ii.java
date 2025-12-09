@@ -4,7 +4,6 @@ class Solution {
         
         int t[][]=new int[n+1][amount+1];
 
-        //initialisation
         for(int i=0;i<n+1;i++){
             for(int j=0;j<amount+1;j++){
                 if(i==0 && j>0){
