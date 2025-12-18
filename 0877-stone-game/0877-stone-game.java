@@ -1,6 +1,6 @@
 class Solution {
     public boolean stoneGame(int[] piles) {
-        int alice=0;
+        int alice = 0;
         int bob=0;
         int i=0;
         int j=piles.length-1;
