@@ -7,7 +7,7 @@ class Solution {
 
         Arrays.fill(dp, 1);
         Arrays.fill(count, 1);
-        int maxi = 11;
+        int maxi = 1;
 
         for(int curr=1; curr<n; curr++) {
             for(int prev=0; prev<curr; prev++) {
