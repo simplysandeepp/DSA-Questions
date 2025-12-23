@@ -27,7 +27,7 @@ class Solution {
                     }
                 }
             }
-        maxi = Math.max(maxi, dp[curr]);
+            maxi = Math.max(maxi, dp[curr]);
         }
         return maxi;
     }
