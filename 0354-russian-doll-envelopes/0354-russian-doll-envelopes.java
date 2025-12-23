@@ -30,6 +30,6 @@ class Solution {
             }
         }
 
-        return len'
+        return len;
     }
 }
