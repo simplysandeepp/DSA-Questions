@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/wiggle-subsequence/">376. Wiggle Subsequence</a></h2><h3>Medium</h3><hr><p>A <strong>wiggle sequence</strong> is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with one element and a sequence with two non-equal elements are trivially wiggle sequences.</p>
+<h2><a href="https://leetcode.com/problems/wiggle-subsequence">376. Wiggle Subsequence</a></h2><h3>Medium</h3><hr><p>A <strong>wiggle sequence</strong> is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with one element and a sequence with two non-equal elements are trivially wiggle sequences.</p>
 
 <ul>
 	<li>For example, <code>[1, 7, 4, 9, 2, 5]</code> is a <strong>wiggle sequence</strong> because the differences <code>(6, -3, 5, -7, 3)</code> alternate between positive and negative.</li>
