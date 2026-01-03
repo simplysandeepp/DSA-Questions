@@ -7,6 +7,7 @@ class Solution {
         for(int i=k; i<s.length(); i++) {
             st.append(s.charAt(i));
         }
-        return st.toString();        
+        return st.toString
+        ();        
     }
 }
