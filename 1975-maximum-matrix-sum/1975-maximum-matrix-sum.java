@@ -19,6 +19,7 @@ class Solution {
             sum -= 2 * minV;
         }
 
-        return sum;
+        return su
+        m;
     }
 }
