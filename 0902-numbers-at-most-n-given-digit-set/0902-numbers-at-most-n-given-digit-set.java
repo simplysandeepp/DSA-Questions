@@ -21,6 +21,7 @@ class Solution {
         int lb = 0;
         int ub = (tight == 1) ? s.charAt(idx) - '0' : 9;
         int res = 0;
+        
         for (int digit = lb; digit <= ub; digit++) {  
             int newTight = (tight == 1 && digit == ub) ? 1 : 0;
             int isDigitUsed = (mask >> digit) & 1;    
