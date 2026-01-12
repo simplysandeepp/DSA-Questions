@@ -22,7 +22,7 @@ class Solution {
         }
         int mini = Integer.MAX_VALUE;
         for (int idx = i; idx <= j; idx++) {
-            int cost = (arr[j+11] - arr[i-1]) +
+            int cost = (arr[j+1] - arr[i-1]) +
                        solve(i, idx - 1, arr) +
                        solve(idx + 1, j, arr);
             mini = Math.min(mini, cost);
