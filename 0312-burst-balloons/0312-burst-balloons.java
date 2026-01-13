@@ -1,6 +1,7 @@
 class Solution {
     public int maxCoins(int[] nums) {
         int n = nums.length;
+
         int[] arr = new int[n + 2];
         arr[0] = 1;
         arr[n + 1] = 1;
@@ -9,22 +10,25 @@ class Solution {
             arr[i + 1] = nums[i];
         }
 
-        return solve(arr, 1, n);
-    }
+        int[][] dp = new int[n + 2][n + 2];
 
-    public int solve(int[] nums, int i, int j) {
-        if (i > j) return 0;
+        for (int len = 1; len <= n; len++) {
+            for (int i = 1; i + len - 1 <= n; i++) {
+                int j = i + len - 1;
 
-        int maxi = Integer.MIN_VALUE;
+                int maxi = Integer.MIN_VALUE;
 
-        for (int idx = i; idx <= j; idx++) {
-            int cost =
-                nums[i - 1] * nums[idx] * nums[j + 1]
-                + solve(nums, i, idx - 1)
-                + solve(nums, idx + 1, j);
+                for (int idx = i; idx <= j; idx++) {
+                    int cost =
+                        arr[i - 1] * arr[idx] * arr[j + 1]
+                        + dp[i][idx - 1]
+                        + dp[idx + 1][j];
 
-            maxi = Math.max(maxi, cost);
+                    maxi = Math.max(maxi, cost);
+                }
+                dp[i][j] = maxi;
+            }
         }
-        return maxi;
+        return dp[1][n];
     }
 }
