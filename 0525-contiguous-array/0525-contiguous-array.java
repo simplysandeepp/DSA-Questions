@@ -1,0 +1,18 @@
+class Solution {
+    public int findMaxLength(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0,-1);
+        int balance = 0;
+        int maxi = 0;
+        for (int i = 0; i < nums.length; i++) {
+            balance += (nums[i] == 1) ? 1 : -1;
+            if (map.containsKey(balance)) {
+                maxi = Math.max(maxi, i - map.get(balance));
+            } else {
+                map.put(balance, i); 
+            }
+        }
+        return maxi;
+    }
+}
+
