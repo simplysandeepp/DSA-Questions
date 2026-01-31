@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/reformat-department-table">1179. Reformat Department Table</a></h2><h3>Easy</h3><hr><p>Table: <code>Department</code></p>
+<h2><a href="https://leetcode.com/problems/reformat-department-table/">1179. Reformat Department Table</a></h2><h3>Easy</h3><hr><p>Table: <code>Department</code></p>
 
 <pre>
 +-------------+---------+
