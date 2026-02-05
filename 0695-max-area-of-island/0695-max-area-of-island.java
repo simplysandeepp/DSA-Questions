@@ -22,10 +22,6 @@ class Solution {
             return 0;
         }
         grid[r][c] = 0; 
-        return 1
-                + dfs(grid,r+1,c)
-                + dfs(grid,r-1,c)
-                + dfs(grid,r,c+1)
-                + dfs(grid,r,c-1);
+        return 1 + dfs(grid,r+1,c) + dfs(grid,r-1,c) + dfs(grid,r,c+1) + dfs(grid,r,c-1);
     }
 }
