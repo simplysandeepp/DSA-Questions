@@ -13,7 +13,6 @@ class Solution {
         if (image[r][c] != real)
             return;
         image[r][c] = color;
-
         dfs(image,r+1,c,real,color); 
         dfs(image,r-1,c,real,color); 
         dfs(image,r,c+1,real,color); 
