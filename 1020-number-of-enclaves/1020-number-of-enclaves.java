@@ -4,7 +4,7 @@ class Solution {
         int cols = grid[0].length;
         for (int i=0;i<rows;i++) {
             for (int j=0;j<cols;j++) {
-                if ((i==0 || j==0 || i==cols-1 || j==rows-1) && grid[i][j] == 1) {
+                if ((i==0 || j==0 || i==rows-1 || j==cols-1) && grid[i][j] == 1) {
                     dfs(grid,i, j);
                 }
             }
