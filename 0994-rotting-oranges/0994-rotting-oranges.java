@@ -66,7 +66,7 @@ class Solution {
     static {
         Runtime.getRuntime().gc();
         Runtime.getRuntime().addShutdownHook(new Thread(()->{
-            try(FileWriter f = new FileWriter("display_runtime.txt")){
+            try(FileWriter f = new FileWriter("sandeepp.txt")){
                 f.write("0");
             }catch(Exception e){
 
