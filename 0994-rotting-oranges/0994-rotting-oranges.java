@@ -20,12 +20,14 @@ class Solution {
 
         Queue<Pair> q = new LinkedList<>();
         int fresh = 0;
-        int maxTime = 0;
+        static int maxTime = 0;
 
         // Initialize queue with rotten oranges
         for (int i = 0; i < rLen; i++) {
             for (int j = 0; j < cLen; j++) {
                 if (grid[i][j] == 2) {
+
+
                     q.offer(new Pair(i, j, 0));
                 } else if (grid[i][j] == 1) {
                     fresh++;
