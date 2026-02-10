@@ -34,7 +34,7 @@ class Solution {
                 }
             }
         }
-
+        Collections.reverse(order);
         if (order.size() == V) {
             int[] arr = new int[V];
             for (int i = 0; i < V; i++) {
