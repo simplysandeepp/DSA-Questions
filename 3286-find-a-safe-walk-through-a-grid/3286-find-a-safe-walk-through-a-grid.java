@@ -1,45 +1,28 @@
 class Solution {
-    public boolean findSafeWalk(List<List<Integer>> grid, int health) {
-        int m = grid.size();
-        int n = grid.get(0).size();
-
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[2] - a[2]);
-
-        int[][] bh = new int[m][n];
-        for (int[] row : bh) {
-            Arrays.fill(row, -1);
-        }
-
-        int initial = health - grid.get(0).get(0);
-        pq.offer(new int[]{0, 0, initial});
-        bh[0][0] = initial;
-
-        int[][] directions = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-        
-        while (!pq.isEmpty()) {
-            int[] curr = pq.poll();
-            int x = curr[0];
-            int y = curr[1];
-            int h = curr[2];
-
-            if (x == m - 1 && y == n - 1 && h > 0) {
+    public boolean findSafeWalk(final List<List<Integer>> grid, final int health) {
+        int m = grid.size(), n = grid.get(0).size();
+        int[][] dirs = new int[][] {{ 0, 1 },{ 1, 0 },{ 0, -1 },{ -1, 0 }};
+        int[][] healthGrid = new int[m][n];
+        Queue<int[]> queue = new PriorityQueue<>((a, b) -> b[2] - a[2]);
+        queue.offer(new int[] { 0, 0, health - grid.get(0).get(0) });
+        while(!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            if(curr[2] == 0)
+                continue;
+            if(curr[0] == m - 1 && curr[1] == n - 1)
                 return true;
-            }
-
-            for (int[] d : directions) {
-                int nx = x + d[0];
-                int ny = y + d[1];
-
-                if (nx < 0 || ny < 0 || nx >= m || ny >= n) continue;
-
-                int nh = h - grid.get(nx).get(ny);
-                if (nh > 0 && nh > bh[nx][ny]) {
-                    bh[nx][ny] = nh;
-                    pq.offer(new int[]{nx, ny, nh});
-                }
+            for(int[] dir : dirs) {
+                int x = curr[0] + dir[0];
+                int y = curr[1] + dir[1];
+                if(x < 0 || y < 0 || x >= m || y >= n)
+                    continue;
+                int newH = curr[2] - grid.get(x).get(y);
+                if(healthGrid[x][y] >= newH)
+                    continue;
+                healthGrid[x][y] = newH;
+                queue.offer(new int[] { x, y, newH});
             }
         }
-
         return false;
-    }
+        
 }
