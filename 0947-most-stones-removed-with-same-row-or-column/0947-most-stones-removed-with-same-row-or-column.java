@@ -26,22 +26,19 @@ class Solution {
             rank[p_a]++;
         }
 
-        component--;   // decrease number of components
+        component--;  
         return true;
     }
 
     public int removeStones(int[][] stones) {
         int n = stones.length;
-
         parent = new int[n];
         rank = new int[n];
         component = n;
-
         for (int i = 0; i < n; i++) {
             parent[i] = i;
             rank[i] = 0;
         }
-
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (stones[i][0] == stones[j][0] || 
