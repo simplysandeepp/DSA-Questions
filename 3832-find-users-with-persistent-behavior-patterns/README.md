@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-users-with-persistent-behavior-patterns/">3832. Find Users with Persistent Behavior Patterns</a></h2><h3>Hard</h3><hr><p>Table: <code>activity</code></p>
+<h2><a href="https://leetcode.com/problems/find-users-with-persistent-behavior-patterns">3832. Find Users with Persistent Behavior Patterns</a></h2><h3>Hard</h3><hr><p>Table: <code>activity</code></p>
 
 <pre>
 +--------------+---------+
