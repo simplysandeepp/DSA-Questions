@@ -20,4 +20,4 @@ WITH one_action_per_day AS (
 SELECT user_id, action, streak_length, start_date, end_date
 FROM filter_streak f
 WHERE streak_length >= (SELECT MAX(streak_length) FROM filter_streak f1 WHERE f.user_id = f1.user_id)
-ORDER BY streak_length DESC, user_id ASC-- Write your PostgreSQL query statement below
+ORDER BY streak_length DESC, user_id ASC
