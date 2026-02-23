@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     int maxPath = Integer.MIN_VALUE;
 
