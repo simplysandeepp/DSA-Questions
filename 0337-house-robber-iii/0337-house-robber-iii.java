@@ -16,4 +16,5 @@ class Solution {
         choice[1] = Math.max(lc[0],lc[1]) + Math.max(rc[0],rc[1]);
         return choice;
     }
+
 }
