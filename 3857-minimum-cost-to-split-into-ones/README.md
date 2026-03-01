@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-cost-to-split-into-ones">3857. Minimum Cost to Split into Ones</a></h2><h3>Medium</h3><hr><p>You are given an integer <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-cost-to-split-into-ones/">3857. Minimum Cost to Split into Ones</a></h2><h3>Medium</h3><hr><p>You are given an integer <code>n</code>.</p>
 
 <p>In one operation, you may split an integer <code>x</code> into two positive integers <code>a</code> and <code>b</code> such that <code>a + b = x</code>.</p>
 
