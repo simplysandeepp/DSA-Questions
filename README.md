@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0607-sales-person](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0607-sales-person/) | Easy |
 | [1084-sales-analysis-iii](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1084-sales-analysis-iii/) | Easy |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1141-user-activity-for-the-past-30-days-i/) | Easy |
 | [1158-market-analysis-i](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1158-market-analysis-i/) | Medium |
 | [1174-immediate-food-delivery-ii](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1174-immediate-food-delivery-ii/) | Medium |
 | [1193-monthly-transactions-i](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1193-monthly-transactions-i/) | Medium |
