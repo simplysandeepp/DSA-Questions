@@ -48,4 +48,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0042-trapping-rain-water/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 <!---LeetCode Topics End-->
