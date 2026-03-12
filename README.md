@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0974-subarray-sums-divisible-by-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/1480-running-sum-of-1d-array/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/2574-left-and-right-sum-differences/) | Easy |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -87,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/1483-kth-ancestor-of-a-tree-node/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -108,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0974-subarray-sums-divisible-by-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0974-subarray-sums-divisible-by-k/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/1480-running-sum-of-1d-array/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/2574-left-and-right-sum-differences/) | Easy |
@@ -116,4 +120,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0974-subarray-sums-divisible-by-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0974-subarray-sums-divisible-by-k/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 <!---LeetCode Topics End-->
