@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public long minNumberOfSeconds(int mountainHeight, int[] workerTimes) {
         long left = 0, right = (long)1e18;
